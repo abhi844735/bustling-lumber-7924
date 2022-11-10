@@ -46,14 +46,14 @@
             font-size: 22px;
         }
 
-        #nav-option>ul>li:nth-child(4)>a {
+        #nav-option>ul>li:nth-child(6)>a {
             background-color: white;
             color: #257cff;
             padding: 6px 25px;
             border-radius: 8px;
 
         }
-        #nav-option>ul>li:nth-child(4)>a:hover{
+        #nav-option>ul>li:nth-child(6)>a:hover{
             background-color: #184fa3;
             color: white;
         }
@@ -215,6 +215,7 @@
         .images-section>div:nth-child(2) {
             width: 59%;
         }
+        
 
         .icons {
             margin: 0px 20px;
