@@ -1,0 +1,161 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8fbfe;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #257cff;
+    align-items: center;
+    padding: 25px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav>div:nth-child(1)>a>h1 {
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+}
+nav>div:nth-child(1)>a{
+    text-decoration: none;
+}
+
+#nav-option>ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#nav-option>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-option>ul>li {
+    list-style: none;
+    margin: 0px 20px;
+    font-size: 22px;
+}
+
+#nav-option>ul>li:nth-child(7)>a {
+    background-color: white;
+    color: #257cff;
+    padding: 6px 25px;
+    border-radius: 8px;
+
+}
+#nav-option>ul>li:nth-child(7)>a:hover{
+    background-color: #184fa3;
+    color: white;
+}
+ /* footer section */
+ footer>div{
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  
+  footer>div>div>ul>li{
+    list-style: none;
+    padding: 4px 0px;
+  }
+  footer>div>div>ul>li>a{
+    text-decoration: none;
+    color:grey;
+    font-size: 20px;
+    
+  }
+  footer>div>div>ul>li:nth-child(1){
+    font-size: 24px;
+    font-weight: 900;
+    padding-bottom: 15px;
+  }
+  .copy-right{
+    color: grey;
+    text-align: center;
+    margin-top: 11px;
+    margin-bottom: 35px;
+  }
+  #top-section{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: grey;
+  }
+  #top-section>h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  #top-section>h2{
+    margin-bottom: 20px;
+  }
+  #top-section>img:nth-child(1){
+    margin-top: 30px;
+  }
+  
+#exercise-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    
+}
+#exercise-section>div>div>img{
+    width: 100%;
+}
+#exercise-section>div{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    padding: 10px;
+
+}
+#filter-section{
+    text-align: center;
+    
+}
+#filter-section>select{
+    width: 25%;
+    font-size: 24px;
+    margin: 20px 0px;
+    text-align: center;
+}
+#sorting{
+    text-align: center;
+    
+}
+#sorting>select{
+    width: 25%;
+    font-size: 24px;
+    margin: 20px 0px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: grey;
+}
+#searching{
+    text-align: center;
+}
+#searching>input{
+    width: 25%;
+    font-size: 22px;
+    border:none;
+    border-radius: 30px;
+    padding: 9px 7px;
+    border: 1px solid grey;
+}
+
