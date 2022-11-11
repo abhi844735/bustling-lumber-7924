@@ -47,14 +47,14 @@ nav>div:nth-child(1)>a{
     font-size: 22px;
 }
 
-#nav-option>ul>li:nth-child(6)>a {
+#nav-option>ul>li:nth-child(7)>a {
     background-color: white;
     color: #257cff;
     padding: 6px 25px;
     border-radius: 8px;
 
 }
-#nav-option>ul>li:nth-child(6)>a:hover{
+#nav-option>ul>li:nth-child(7)>a:hover{
     background-color: #184fa3;
 }
 
