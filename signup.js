@@ -31,7 +31,7 @@ form.addEventListener("submit",(e)=>{
     
         // }
         if(obj.password!=obj.confirmPassword){
-            alert("password not matched");
+            alert("Password not matched");
         }
         
         else{
